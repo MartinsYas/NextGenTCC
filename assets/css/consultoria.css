@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: auto;
+    height: auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #1CDAFF;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #17181d;
+}
+.con{
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    gap: 10px; 
+    align-items: center;
+}
+
+.pme img {
+    margin-left: 7%;
+    width: 94%;
+    height: 100%;
+}
+
+.text {
+    font-weight: bold;
+    margin-left: 6%;
+    font-size: 40px;
+    color: #1CDAFF;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 30px;
+    color: #1CDAFF;
+}
+
+.card-titlee {
+    font-size: 30px;
+    color: white;
+}
+
+.card {
+    text-align: center;
+    background-color: #17181d;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+    padding-top: 0%;
+}
+
+
+.areaFormulario {
+    display: grid;
+    height: 450px;
+    grid-template-columns: 45% 55%;
+    width: 95%;
+}
+
+.mainContentArea {
+    padding: 3%;
+    background-color: #17181d;
+    color: #1CDAFF;
+    opacity: 0.8;
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+
+}
+
+img {
+    width: 100%;
+    height: 450px;
+}
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    color: #0f1923;
+    cursor: pointer;
+    position: relative;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .15s ease;
+}
+
+.button::before,
+.button::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid #7D8082;
+    transition: all .15s ease;
+}
+
+.button::before {
+    top: 0;
+    border-bottom-width: 0;
+}
+
+.button::after {
+    bottom: 0;
+    border-top-width: 0;
+}
+
+.button:active,
+.button:focus {
+    outline: none;
+}
+
+.button:active::before,
+.button:active::after {
+    right: 3px;
+    left: 3px;
+}
+
+.button:active::before {
+    top: 3px;
+}
+
+.button:active::after {
+    bottom: 3px;
+}
+
+.button_lg {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0f1923;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #0f1923;
+}
+
+.button_lg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #0f1923;
+    transition: all .2s ease;
+}
+
+.button_sl {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: -8px;
+    width: 0;
+    background-color: #78e1f7;
+    transform: skew(-15deg);
+    transition: all .2s ease;
+}
+
+.button_text {
+    position: relative;
+}
+
+.button:hover {
+    color: #0f1923;
+}
+
+.button:hover .button_sl {
+    width: calc(100% + 15px);
+}
+
+.button:hover .button_lg::after {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 35px;
+    color: #1CDAFF;
+}
+
+.card-img-par {
+    width: 150px;
+    height: 185px;
+    border-radius: 50%;
+    align-self: center;
+    padding-top: 0%;
+}
+
+.cursos {
+    margin: 30px 30px 30px 30px;
+}
