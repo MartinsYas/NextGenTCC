@@ -12,7 +12,6 @@ if($_POST){
 
     if($conexao->query($sql)){
         header("Location:parceiros.html");
-        echo "certo";
     } 
     else{
         die("Erro" .$sql. ''.$conexao -> connect_error);

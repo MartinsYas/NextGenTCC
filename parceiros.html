@@ -124,26 +124,28 @@ text-align: -webkit-center;
     <div class="areaFormulario">
       <img src="assets\img\imgForm.jpg">
       <div class="mainContentArea">
-        <form>
+        <form action="inserirParceiros.php" method="post">
+
           <div class="form-group">
             <label for="exampleInputEmail1">Digite o nome da sua Empresa.</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="Nome da sua empresa aqui!">
+            <input type="text" name="nomeEmpresa" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp" placeholder="Nome da sua empresa aqui!">
             <div class="invalid-feedback"></div>
           </div>
 
           <div class="form-group">
             <label for="exampleInputEmail1">Digite o seu nome</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="Seu nome aqui!">
+            <input type="text" name="nomeContatante" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp" placeholder="Seu nome aqui!">
             <div class="invalid-feedback"></div>
           </div>
 
           <div class="form-group">
             <label for="exampleFormControlInput1">Seu endereço de email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com"
-              required>
+            <input type="email" name="emailContatante" class="form-control" id="exampleFormControlInput1"
+              placeholder="nome@exemplo.com">
           </div>
+
           <div class="form-group form-check" style="padding: 2% 2% 0% 2%;">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Concordo em receber e-mails e atualizações sobre a
@@ -155,8 +157,6 @@ text-align: -webkit-center;
                   <span class="button_text">Saiba mais</span>
               </span>
             </button></center></a>
-      </div>
-
       </form>
     </div>
   </div>
