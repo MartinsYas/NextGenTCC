@@ -42,10 +42,37 @@ h1 {
     width: 95%;
 }
 
+.formEmpresaLabel {
+    font-size: 100%;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+.inputEmpresa {
+    margin-top: 1rem;
+    border-radius: 10px;
+    outline: 2px solid #00a6fb;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #d6f1ff;
+    outline-offset: 3px;
+    padding: 10px 12.5px;
+    transition: all 0.2s ease;
+    width: 90%;
+  }
+  
+  .inputEmpresa:hover {
+    background-color: #fff;
+  }
+  
+  .inputEmpresa:focus {
+    outline-offset: -6px;
+    background-color: #d6f1ff;
+  }
+
 .mainContentArea {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    padding: 2%;
     background-color: #17181d;
     color: #1CDAFF;
     opacity: 0.8;
@@ -62,16 +89,19 @@ img {
     height: 450px;
 }
 
+.areaBotao {
+    height: 100%;
+}
+
 .button {
-    -moz-appearance: none;
-    -webkit-appearance: none;
     appearance: none;
     border: none;
     background: none;
     color: #0f1923;
     cursor: pointer;
     position: relative;
-    padding: 8px;
+    margin-top: 5px;
+    padding: 4px;
     margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: bold;

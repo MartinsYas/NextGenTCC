@@ -125,41 +125,44 @@ text-align: -webkit-center;
       <img src="assets\img\imgForm.jpg">
       <div class="mainContentArea">
         <form action="inserirParceiros.php" method="post">
-
-          <div class="form-group">
-            <label for="exampleInputEmail1">Digite o nome da sua Empresa.</label>
-            <input type="text" name="nomeEmpresa" class="form-control" id="exampleInputEmail1"
+          <div class="formEmpresa">
+            <label class="formEmpresaLabel">Digite o nome da sua Empresa</label>
+            <input type="text" name="nomeEmpresa" class="inputEmpresa" id="exampleInputEmail1"
               aria-describedby="emailHelp" placeholder="Nome da sua empresa aqui!">
             <div class="invalid-feedback"></div>
           </div>
 
-          <div class="form-group">
-            <label for="exampleInputEmail1">Digite o seu nome</label>
-            <input type="text" name="nomeContatante" class="form-control" id="exampleInputEmail1"
+          <div class="formEmpresa">
+            <label class="formEmpresaLabel">Digite o seu nome</label>
+            <input type="text" name="nomeContatante" class="inputEmpresa" id="exampleInputEmail1"
               aria-describedby="emailHelp" placeholder="Seu nome aqui!">
             <div class="invalid-feedback"></div>
           </div>
 
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Seu endereço de email</label>
-            <input type="email" name="emailContatante" class="form-control" id="exampleFormControlInput1"
+          <div class="formEmpresa">
+            <label class="formEmpresaLabel">Seu endereço de email</label>
+            <input type="email" name="emailContatante" class="inputEmpresa" id="exampleFormControlInput1"
               placeholder="nome@exemplo.com">
           </div>
 
-          <div class="form-group form-check" style="padding: 2% 2% 0% 2%;">
+          <div class="formEmpresa form-check" style="padding: 2% 2% 0% 2%;">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Concordo em receber e-mails e atualizações sobre a
               NextGen</label>
           </div>
-          <center> <button class="button">
+
+          <div class="areaBotao">
+            <button class="button">
               <span class="button_lg"><a href="projeto.html">
                   <span class="button_sl"></span>
-                  <span class="button_text">Saiba mais</span>
+                  <span class="button_text">Enviar</span>
               </span>
-            </button></center></a>
-      </form>
+            </button></center></a> 
+          </div>
+
+        </form>
+      </div>
     </div>
-  </div>
   </div>
 
   <br>
