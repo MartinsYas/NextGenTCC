@@ -13,6 +13,9 @@ h1 {
     text-decoration: solid black;
 }
 
+p {
+    padding: 0px;
+}
 
 .avaliacoes {
     display: flex;
