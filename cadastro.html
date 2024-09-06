@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro / Login </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/imagem/logo.jpg" type="image/x-icon">
+    <!-- <link rel="stylesheet" href=".css"> -->
+    <link rel="stylesheet" href="src/css/cadastro.css">
+ 
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="./src/imagem/logoblack.png" alt="logo"></a>
+            </div>
+            <ul class="navigation">
+                <li><a href="index.html">PME</a></li>
+                <li><a href="parceiros.html">Parceiros</a></li>
+                <li><a href="sobrenos.html">Sobre nós</a></li>
+                <li><a href="cadastro.html">Cadastro | Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    </br></br></br>
+    <div class="container">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front">
+                <img src="./src/imagem/imageLogin.jpg" alt="Imagem Login">
+                <div class="text">
+                    <span class="text-1">Cada novo amigo é uma <br> nova aventura</span>
+                    <span class="text-2">Vamos nos conectar</span>
+                </div>
+            </div>
+            <div class="back">
+                <img class="backImg" src="images/register.jpg" alt="Imagem Cadastro">
+                <div class="text">
+                    <span class="text-1">Compelte sua jornada <br> </span>
+                    <span class="text-2">Vamos começar</span>
+                </div>
+            </div>
+        </div>
+        <div class="forms">
+            <div class="form-content">
+                <div class="login-form">
+                    <div class="title">Login</div>
+                    <form action="#">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" placeholder="Digite seu email" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Digite sua senha" required>
+                            </div>
+                            <div class="text"><a href="#">Esqueceu a senha?</a></div>
+                            <div class="button input-box">
+                                <input type="submit" value="Enviar">
+                            </div>
+                            <div class="text sign-up-text">Não tem uma conta? <label for="flip">Inscreva-se
+                                    agora</label></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="signup-form">
+                    <div class="title">Inscrever-se</div>
+                    <form action="#">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Digite seu nome completo" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Digite o nome da sua empresa" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" placeholder="Digite seu email" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-phone"></i>
+                                <input type="tel" placeholder="Digite seu telefone" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Digite sua senha" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Confirme sua senha" required>
+                            </div>
+                            <div class="input-box-genero">
+                                <font color="#13a0e0"><h4>Gênero:</h4></font>
+                                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                                <label for="feminino">Feminino</label>
+                                <input type="radio" id="masculino" name="genero" value="masculino">
+                                <label for="masculino">Masculino</label>
+                                <input type="radio" id="prefiro_nao_dizer" name="genero" value="prefiro_nao_dizer">
+                                <label for="prefiro_nao_dizer">Prefiro não dizer</label>
+                            </div>
+                            <div class="button input-box">
+                                <input type="submit" value="Enviar">
+                            </div>
+                            <div class="text sign-up-text">Já tem uma conta? <label for="flip">Conecte-se agora</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</br></br></br>
+</body>
+
+</html>
