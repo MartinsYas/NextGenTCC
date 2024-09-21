@@ -77,6 +77,10 @@ margin-left: 125px;
     color: #1CDAFF;
 }
 
+.navigation {
+    margin-top: 16px;
+}
+
 .btn_login {
     background-color:#7ED957;
     color: #ffffff;
